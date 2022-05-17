@@ -1,13 +1,26 @@
 $primary-color:#444;
 $secondary-color:#eece1a;
+$show-home-image: true;
+$home-image: url(../img/background.jpg);
+$background-opacity:0.9;
 @mixin easeOut {
-    transition: all 3s ease-out;
+    transition: all 3s ease-out;    
+}
+@mixin background {
+    @if $show-home-image{
+        &#bg-img{
+            background: $home-image;
+            background-attachment: fixed;
+            background-size: cover;
+        }
+    }
     
 }
 *{
     box-sizing: border-box;
 }
 body{
+    @include background;
     background: $primary-color ;
     color :#fff;
     height :100%;
