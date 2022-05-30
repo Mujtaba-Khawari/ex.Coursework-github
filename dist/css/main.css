@@ -93,7 +93,10 @@
 @media screen and (max-width: 760px) {
   main {
     align-items: center;
-    text-align: center; } }
+    text-align: center; }
+    main .lg-heading {
+      line-height: 1;
+      margin-bottom: 1rem; } }
 
 * {
   box-sizing: border-box; }
