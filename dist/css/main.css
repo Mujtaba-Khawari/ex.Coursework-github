@@ -9,7 +9,7 @@
     width: 28px;
     height: 3px;
     margin: 0 0 5px 0;
-    background: set-text-color(#444);
+    background: #fff;
     transition: all 1s ease-out; }
   .menu-btn.close {
     transform: rotate(180deg); }
