@@ -3,10 +3,9 @@
   "version": "1.0.0",
   "description": "Responsive portfolio website",
   "main": "index.js",
-  "homepage": "http://Mujtaba-Khawari.github.io/ex.Coursework-github",
+  "homepage": "https://Mujtaba-Khawari.github.io/ex.Coursework-github",
   "scripts": {
     "sass": "node-sass -w scss/ -o dist/css/ --recursive",
-    
     "deploy": "gh-pages -d dist"
   },
   "author": "Mujtaba",
