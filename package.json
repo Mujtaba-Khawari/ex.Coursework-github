@@ -6,8 +6,8 @@
   "homepage": "http://Mujtaba-Khawari.github.io/ex.Coursework-github",
   "scripts": {
     "sass": "node-sass -w scss/ -o dist/css/ --recursive",
-    "predeploy":"npm run build",
-    "deploy": "gh-pages -d build"
+    
+    "deploy": "gh-pages -d dist"
   },
   "author": "Mujtaba",
   "license": "MIT",
